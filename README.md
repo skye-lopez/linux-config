@@ -1,14 +1,20 @@
 # Linux config
 # 1 - Linux install:
 - Install popos
-- Install i3
+
+Install i3:
+
 `sudo apt install i3`
 
 On startup on the bottom left click the settings icon and select i3.
 
 #2 - Basic terminal setup
 
-Zsh + OhMyZsh
+### Zsh + OhMyZsh
+
+(nvim setup later but just so we have it)
+
+`sudo apt install neovim`
 
 ```
 ZSH:

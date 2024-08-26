@@ -1,5 +1,4 @@
-# Linux config
-# 1 - Linux install:
+### Linux install:
 - Install popos
 
 Install i3:

@@ -89,6 +89,10 @@ Set path:
 
 export PATH=$PATH:/usr/local/go/bin
 
+also set it zshrc
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$GOPATH/bin
+
 ```
 
 GCC + Tooling:

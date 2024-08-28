@@ -169,16 +169,16 @@ sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
 
 To get transparent windows for a background image:
 
-TODO: Automatically load this
-using a background image:
-`sudo apt-get install feh
-feh --bg-scale --zoom fill ~/Pictures/background.jpg`
-
 Install picom
 `apt install picom`
 
 Add this to ~/.config/i3/config
 `exec --no-startup-id picom -CGb`
+
+and
+i3background is just a folder i made and put an image in.
+
+`exec_always feh --bg-scale --zoom fill ./i3Backgrounds/pink_cute_girl.png`
 
 Then enable transparent vim background:
 

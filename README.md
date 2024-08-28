@@ -165,3 +165,17 @@ sudo dpkg -i ripgrep_14.1.0-1_amd64.deb
 
 ```
 
+# I3 config
+
+To get transparent windows for a background image:
+
+TODO: Automatically load this
+using a background image:
+`sudo apt-get install feh
+feh --bg-scale --zoom fill ~/Pictures/background.jpg`
+
+Install picom
+`apt install picom`
+
+Add this to ~/.config/i3/config
+`exec --no-startup-id picom -CGb`

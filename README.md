@@ -179,3 +179,13 @@ Install picom
 
 Add this to ~/.config/i3/config
 `exec --no-startup-id picom -CGb`
+
+Then enable transparent vim background:
+
+For lazyvim in init.lua
+`vim.cmd [[
+  highlight Normal guibg=none
+  highlight NonText guibg=none
+  highlight Normal ctermbg=none
+  highlight NonText ctermbg=none
+]]`

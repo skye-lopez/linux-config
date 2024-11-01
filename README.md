@@ -1,4 +1,5 @@
-### Linux install:
+### Linux install
+
 - Install popos
 
 Install i3:
@@ -7,9 +8,10 @@ Install i3:
 
 On startup on the bottom left click the settings icon and select i3.
 
-#2 - Basic terminal setup
+# 2 - Basic terminal setup
 
 ### Nvim default install (setup later)
+
 ```
 sudo apt install vim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
@@ -49,6 +51,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlightin
 ```
 
 ### Tmux
+
 ```
 sudo apt install tmux
 
@@ -67,17 +70,20 @@ bind % split-window -h -c "#{pane_current_path}"
 ### Languages / Tools
 
 pip:
+
 ```
 sudo apt install python3-pip -y
 ```
 
 NodeJS:
+
 ```
 sudo apt install nodejs
 sudo apt install npm
 ```
 
 Golang:
+
 ```
 download linux version: https://go.dev/doc/install
 
@@ -96,12 +102,14 @@ export PATH=$PATH:$GOPATH/bin
 ```
 
 GCC + Tooling:
+
 ```
 sudo apt install gcc
 sudo apt install build-install
 ```
 
 Postgres
+
 ```
 sudo apt install postgresql
 
@@ -127,11 +135,13 @@ sudo systemctl restart postgresql.service
 ```
 
 Pgcli
+
 ```
 sudo pip install pgcli
 ```
 
 Docker
+
 ```
 sudo apt-get update
 sudo apt-get install ca-certificates curl
